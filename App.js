@@ -1,12 +1,15 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import Login from '../PhuocExpo/Login'; // Đảm bảo bạn import đúng đường dẫn của component Login
+import Login from '../PhuocExpo/src/Login.tsx'; // Đảm bảo bạn import đúng đường dẫn của component Login
 
 export default function App() {
   return (
     <View style={styles.container}>
       
       <Login />
+      {/* <TopBar/> */}
+      {/* <BottomNatigationBar/> */}
+
     </View>
   );
 }
