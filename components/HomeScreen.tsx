@@ -5,7 +5,7 @@ const HomeScreen = () => {
     return (
         <View style={styles.container}>
             {/* Render your content here */}
-        <LuuBai/>
+        
             
         </View>
     );
