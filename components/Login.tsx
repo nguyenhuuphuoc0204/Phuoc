@@ -13,7 +13,7 @@ const Login = () => {
         console.log('Thông tin đăng nhập', credentials);
         Alert.alert('Đăng nhập đã được nhấn', 'Đăng nhập.');
     }
-
+    
     const validateEmail = () => {
         const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
         if (!regexEmail.test(credentials.email)) {
